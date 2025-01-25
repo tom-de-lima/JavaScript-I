@@ -1,8 +1,10 @@
+//Recursos Nativos do Navegador
+
 let nome = "João"
 
 console.log(nome)
-console.error(nome)
-console.warn(nome)
+console.error('Erro!' + ' ' + nome)
+console.warn('Alerta!' + ' ' + nome)
 
 // As funções abaixo estão presentes no objeto "window"
 
